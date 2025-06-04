@@ -54,7 +54,7 @@ cp MicroPyDS/micropython.nds "$WORKDIR/base.nds"
 # Step 5: Copy user script and build final .nds
 USER_SCRIPT="$1"
 if [ -z "$USER_SCRIPT" ]; then
-    echo "Usage: $0 your_script.py"
+    echo "Usage: $0 test.py"
     exit 1
 fi
 
